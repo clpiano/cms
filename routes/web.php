@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/index', 'HelloController@index');
+
+Route::resource('book', 'BookController');
