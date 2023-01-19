@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/index', 'HelloController@index');
 
 Route::resource('book', 'BookController');
+
+Route::get('/test/func', 'TestController@func');
