@@ -6,3 +6,4 @@
         {{ $hello_word }}<br>
     @endforeach
 @endsection
+<p>index</p>
